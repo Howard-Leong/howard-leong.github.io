@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Howard Leong | Personal Website</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="icon" type="image/x-icon" href="./assets/images/icon.ico">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/headshot.png" alt="Howard Leong" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Howard Leong">Howard Leong</h1>
+
+          <p class="title">Econometrician & Data Scientist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Contact Me</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:howard.leong@outlook.com" class="contact-link">howard.leong@outlook.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+18255615232" class="contact-link">+1 (825) 561-5232</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-02-04">February 4, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Calgary, Alberta, Canada.</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/howard-leong/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/howard_lyz/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            A college junior specializing in Econometrics, Machine Learning, and Data Science with 3 years’ experience in software product management and international economic development. 
+            Awarded the Global Student Prize 2021 for building an ‘Amazon.com’-style platform for high school entrepreneurs, fulfilling 1,087 orders in 2 months. Spearheaded a new ESG investing 
+            venture with nearly USD 750,000 in pre-seed funding. Worked two jobs to self-finance three-quarters of college costs. 
+          </p>
+
+          <p>
+            Seeking opportunities to apply analytical skills and drive innovation.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/causal.png
+                " alt="econometrics icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Econometrics</h4>
+
+                <p class="service-item-text">
+                  Answering the intricate problem of causal inference.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/bigdata.png" alt="data science icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+
+                <p class="service-item-text">
+                  Predictive modeling and analytics for deeper insights and tailored UX. 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/entre.png" alt="entrepreneurship icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Entrepreneurship</h4>
+
+                <p class="service-item-text">
+                  Building products that make people feel loved. 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/econ-dev.png" alt="econ dev icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Economic Development</h4>
+
+                <p class="service-item-text">
+                  Creating opportunities for others that I had for myself. 
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Research Interests</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Experimental Economics</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Designing and runnning randomized evaluations.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Economics of Digitization</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Using digital data to study economics and design efficient architectures. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Applied Microeconomics</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Testing Microeconomic theory for labour, education, and environmental economics. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Developmental Economics</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Policy research for improving universal welfare.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+         <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Awards & Affiliations</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://www.ucalgary.ca">
+                <img src="./assets/images/awards/Slide1.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.ox.ac.uk">
+                <img src="./assets/images/awards/Slide2.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="http://www.globalstudentprize.org">
+                <img src="./assets/images/awards/Slide3.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.startdisrupt.com">
+                <img src="./assets/images/awards/Slide4.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.glasgowinvest.com">
+                <img src="./assets/images/awards/Slide5.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.jaworldwide.org">
+                <img src="./assets/images/awards/Slide6.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/awards/Slide7.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/awards/Slide8.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/awards/Slide9.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/awards/Slide10.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/awards/Slide11.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/awards/Slide12.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/awards/Slide13.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/awards/Slide14.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/awards/Slide15.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/awards/Slide16.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+        
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <header>
+          <a href="https://drive.google.com/file/d/14PuQwxJkvdgRnRk0juc9B-aKiL5RzS-o/view?usp=sharing">
+            <h4 class="h4 article-title">Link to CV</h2>
+          </a>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor of Arts (Honours) in Economics with Minor in Data Science</h4>
+              <span>University of Calgary | GPA: 3.988 (72 credits)</span>
+              <span>Sep 2021 – Apr 2025</span>
+
+              <p class="timeline-text">
+                Specialization in econometrics and quantitative economics.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Summer Exchange - Artificial Intelligence and Machine Learning: Theory and Practice </h4>
+              <span>Lady Margaret Hall, University of Oxford | Grade: A+ (4 credits)</span>
+              <span>August 2023</span>
+
+              <p class="timeline-text">
+                Funded summer exchange program for Machine Learning and Causal Inference.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Product, Strategy, and Finance Analyst @ START by TBWA (Omnicom) </h4>
+
+              <span>June 2021 – Present</span>
+
+              <p class="timeline-text">
+                Empowering bolder returns. Coming soon. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Global Alumni Ambassador @ JA Worldwide</h4>
+
+              <span>June 2021 — Present</span>
+
+              <p class="timeline-text">
+                Bringing digital innovation and econometrics to entrepreneurship education in 120+ countries.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Regional Alumni Lead @ JA Asia Pacific</h4>
+
+              <span>January 2021 — June 2021</span>
+
+              <p class="timeline-text">
+                Training alumni leaders in 18 countries.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Officer @ JA Malaysia</h4>
+
+              <span>July 2020 — February 2021</span>
+
+              <p class="timeline-text">
+                Digital innovation.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Product Management Intern @ Macrokiosk</h4>
+
+              <span>March 2020 — June 2020</span>
+
+              <p class="timeline-text">
+                GTM for payment gateway in South East Asia.
+              </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Events Coordinator @ Event Plus Marketing</h4>
+
+              <span>Feb 2020 — March 2020</span>
+
+              <p class="timeline-text">
+                Delivering shopping mall experiences.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intern @ JA Malaysia</h4>
+
+              <span>January 2020 — Feburary 2020</span>
+
+              <p class="timeline-text">
+                Entrepreneurship workshops.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intern @ JA Malaysia</h4>
+
+              <span>November 2018 — December 2018</span>
+
+              <p class="timeline-text">
+                Entrepreneurship content for high schoolers.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="cog-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Skills and Interest</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Language</h4>
+              <span>Bilingual Proficient English</span>
+              <span>Professional Chinese</span>
+              <span>Intermediate Bahasa Melayu</span>
+              <span>Elementary Cantonesee</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Programming</h4>
+              <span>Python (pandas, scikit-learn, numpy, gensim, matplotlib, PyTorch, TensorFlow, Keras, seaborn), R, Java, SQL, Excel VBA.</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Computer Applications</h4>
+              <span>VS Code, Jupyter Notebook, Google Colab, Rstudio, GitHub, Postman, Power BI, Tableau, OpenRefine, Qualtrics, MongoDB, Figma, Canva.</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Interests</h4>
+              <span>Read 49 books in 2022, played basketball competitively in Southeast Asia as captain, led my high school’s Leo Club to the Top 52 community service club globally, love nature and hiking, and value thought-provoking films.</span>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <iframe src="https://v2-embednotion.com/Blogs-e15c515d51c94cadb1af9f73ba517d64?pvs=4"></iframe>
+        <style>  iframe { width: 100%; height: 2000px; border: 2px solid #fafafafa; border-radius: 2px; padding: none; }  </style>
+
+        <section class="blog">
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>all</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>economics</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>mlds</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>thoughts</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
