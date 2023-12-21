@@ -15,6 +15,8 @@
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
+
+
 :root {
 
   /**
@@ -555,6 +557,9 @@ main {
   line-height: 1.6;
 }
 
+img {
+  border-radius: 3%;
+}
 
 /**
  * #testimonials 
@@ -1316,9 +1321,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .blog-banner-box { height: auto; }
 
 }
-
-
-
 
 
 /**
