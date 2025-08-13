@@ -309,7 +309,11 @@ main {
 }
 
 
-
+.about-text img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* removes inline spacing */
+}
 
 
 /*-----------------------------------*\
